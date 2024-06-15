@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    bottom: 0;
+    box-sizing: border-box;
+    font-family: 'Arial',sans-serif;
+}
+:root{
+    --btn-color :#0c7d69;
+    --background: #e0f1e7;
+    --input-box : #b6bdbf;
+    --font-color: #83888A;
+}
+
+body{
+    width: 100%;
+    background: var(--background);
+}
+.container{
+    padding: 24px;
+    border-radius: 10px;
+    margin-left: 25%;
+    margin-top: 4%;
+    width: 50%;
+    background-color: #fff;
+}
+.header h1{
+    color: #324648;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.container label{
+    color: var(--font-color);
+    font-weight: 600;
+    margin-left: 15px;
+    font-size: 14px;
+}
+.container span{
+    margin-left: 10px;
+}
+.container input{
+    margin-left: 15px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid var(--input-box);
+    padding: 10px;
+    width: 250px;
+}
+.first-input-section{
+    display: flex;
+    flex-direction: row;
+}
+.first-input input{
+    width: 280px;
+}
+
+.email-address input{
+    width: 93%;
+}
+.query{
+    display: flex;
+}
+.box{
+    width: 262px;
+    margin-top: 10px;
+    border: 1px solid var(--input-box);
+    display: inline-flex;
+    padding: 12px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+.box label{
+    margin-left: -110px;
+    cursor: pointer;
+}
+.box input[type="radio"]{
+    margin-left: -110px;
+    margin-top: 1px;
+}
+.message input{
+    width: 93%;
+    height: 110px;
+}
+.straight{
+    display: flex;
+    flex-direction: row;
+}
+.straight input{
+    margin-left: -100px;
+}
+.straight p{
+    font-weight: 600;
+    margin-top: 8px;
+    font-size: 15px;
+    color: var(--font-color);
+    margin-left: -100px;
+}
+.btn button{
+    margin-left: 14px;
+    margin-top: 30px;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    width: 93%;
+    background: var(--btn-color);
+    border: 1px solid var(--btn-color);
+    border-radius: 8px;
+    padding: 12px;
+}

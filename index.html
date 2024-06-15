@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frontend Mentor | Contact Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="body">
+      <div class="container">
+        <div class="header">
+          <h1>Contact Us</h1>
+          <br /><br />
+        </div>
+        <div class="first-input-section">
+          <div class="first-input">
+            <label>First Name<span>*</span></label
+            ><br />
+            <input type="text" name="First-name" required />
+          </div>
+          <div class="second-input">
+            <label>Last Name<span>*</span></label
+            ><br />
+            <input type="text" name="Last-name" required /><br /><br />
+          </div>
+        </div>
+        <div class="email-address">
+          <label>Email Address<span>*</span></label
+          ><br />
+          <input type="email" name="email-address" required /><br><br>
+        </div>
+        <div class="query-type">
+            <label>Query type<span>*</span></label><br>
+            <div class="query">
+                <div class="box">
+                    <input type="radio" id="general" name="query-type" value="general">
+                    <label for="general">General Enquiry</label>
+                </div>
+                <div class="box">
+                    <input type="radio" id="Support" name="query-type" value="general">
+                    <label for="Support">Support Request</label>
+                </div>
+            </div><br>
+        </div>
+        <div class="message">
+          <label>Message<span>*</span></label><br>
+          <input type="text" name="message" id="message">
+        </div><br>
+        <div class="checkbox">
+          <div class="straight">
+            <input type="checkbox" id="checkbox" name="checkbox">
+            <p>I consent to being contacted by the team</p>
+          </div>
+        </div>
+        <div class="btn">
+          <button>Submit</button>
+        </div>
+      </div>
+    </div><br><br>
+  </body>
+</html>
