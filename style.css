@@ -105,4 +105,70 @@ body{
     border: 1px solid var(--btn-color);
     border-radius: 8px;
     padding: 12px;
+
+}
+@media (max-width: 600px) {
+    .container {
+        width: 90%;
+        margin-top: 150px;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding: 16px;
+    }
+
+    .header h1 {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .first-input-section {
+        flex-direction: column;
+    }
+
+    .first-input, .second-input {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .first-input input, .second-input input, .email-address input, .message input {
+        width: calc(100% - 30px);
+        margin-left: 0;
+    }
+
+    .email-address, .query-type, .message, .checkbox {
+        margin-left: 0;
+    }
+    .query {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    .box {
+        width: calc(50% - 25px);
+        margin-left: 0;
+    }
+
+    .box label, .box input[type="radio"] {
+        margin-left: -100px
+    }
+
+    .straight {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    .straight input {
+        margin-left: -120px;
+    }
+
+    .straight p {
+        margin-left: -100px;
+        margin-top: 4px;
+    }
+
+    .btn button {
+        margin-left: 0;
+        width: 100%;
+    }
 }
